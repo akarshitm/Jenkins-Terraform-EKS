@@ -1,5 +1,5 @@
 locals {
-  region = "ap-south-1"
+  region = "us-east-1"
   name   = "Natwest-cluster"
   vpc_cidr = "172.31.0.0/16"
   azs              = ["ap-south-1a", "ap-south-1b"]
@@ -12,5 +12,5 @@ locals {
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-1"
 }
